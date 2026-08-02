@@ -1,6 +1,7 @@
 services:
   app:
     build: .
+    image: rahmann1992/my-service:latest
     container_name: my-service-app
     ports:
       - "9091:9090"
